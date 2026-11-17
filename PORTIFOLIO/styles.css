@@ -19,13 +19,13 @@ body{
 }
 body.escuro{
     color-scheme:dark;
-    --fundo:#101522;
-    --painel:#1b2435;
+    --fundo:#000000;
+    --painel:#171717;
     --texto:#edf2ff;
     --suave:#1d5bc7;
     --azul:#9db7ff;
     --azul2:#294a9b;
-    --borda:#35425a;
+    --borda:#000000;
     --sombra:0 12px 34px rgba(0,0,0,.2)
 }
 a{
@@ -291,7 +291,8 @@ footer {
     .secao {
         padding: 40px 24px;
     }
-    .card[hidden] {
-  display: none;
+   
 }
+.card[hidden] {
+  display: none;
 }
